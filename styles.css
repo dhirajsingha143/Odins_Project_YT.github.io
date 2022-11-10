@@ -4,12 +4,18 @@
     height: 100vh;
     background-color: rgb(0, 0, 0);
     left: 0px;
-    top: 10vh;
+    top: 9vh;
     overflow:auto;
     color: white;
 }
 #navigation #nav-YT{
-    height:20vh;
+    height:20vh;  
+}
+#navigation button{
+    width: 13vw;
+}
+#navigation #nav-YT img{
+    
 }
 #navigation #nav-user{
     height: 30vh;
@@ -28,26 +34,67 @@
 }
 #lead-container{
     position: fixed;
-    height: 15vh;
+    height: 8vh;
     width: 100vw;
     background-color: rgb(0, 0, 0);
     left: 0px;
     top: 0px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 #lead-container #start{
-    background-color: brown;
+    background-color: rgb(0, 0, 0);
     width: 15vw;
-    height: 10vh;
+    height: 9vh;
 }
+
+#lead-container #start img{
+    height: 25px;
+    width: 100px;
+    padding-top: 20px;
+}
+
 #lead-container #central{
-    background-color: rgb(46, 41, 41);
+    background-color: rgb(0, 0, 0);
     width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#lead-container #central input{
+    font-size: 20px;
+    width: 40vw;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(27, 27, 27);
+    border:1px solid grey;
+    color: white;
+}
+#lead-container #central img{
+    padding-top: 12px;
+    padding-left: 10px;
+    height: 35px;
+    width: 35px;
 }
 #lead-container #end{
-    background-color: aquamarine;
-    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    width: 15vw; 
+}
+#lead-container #end div{
+    padding-top: 8px;
+    float: right;
+    padding-right: 15px;
+}
+#lead-container #end img{
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+}
+#lead-container #end .profile-img{
+    border-radius: 50%;
 }
 
 
