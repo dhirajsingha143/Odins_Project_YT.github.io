@@ -1,0 +1,29 @@
+#navigation{
+    position: fixed;
+    width: 16vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    left: 0px;
+    top: 10vh;
+    overflow:auto;
+    color: white;
+}
+#navigation #nav-YT{
+    height:20vh;
+}
+#navigation #nav-user{
+    height: 30vh;
+}
+#navigation #nav-subscription{
+    height: 15vh;
+}
+#navigation #nav-explore{
+    height: 40vh;
+}
+#navigation #nav-moreYT{
+    height: 20vh;
+}
+#navigation #nav-setting{
+    height: 10vh;
+}
+
