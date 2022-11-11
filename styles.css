@@ -1,18 +1,46 @@
+body{
+    background-color: black;
+}
+
 #navigation{
     position: fixed;
-    width: 16vw;
+    width: 17vw;
     height: 100vh;
     background-color: rgb(0, 0, 0);
     left: 0px;
-    top: 10vh;
-    overflow:auto;
-    color: white;
+    top: 9vh;
+    overflow:visible;
 }
 #navigation #nav-YT{
     height:20vh;
+    padding-left: 5px;
+}
+#navigation button{
+    display: flex;
+    width: 14vw;
+    height: 5vh;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#navigation button div{
+    padding-top: 4px;
+}
+#navigation button:hover{
+    background-color: rgb(29, 29, 29);
+}
+#navigation img{
+    height: 25px;
+    width: 25px;
+    padding-right: 30px;
 }
 #navigation #nav-user{
-    height: 30vh;
+    height: 25vh;
+    padding-left: 5px;
 }
 #navigation #nav-subscription{
     height: 15vh;
@@ -28,26 +56,67 @@
 }
 #lead-container{
     position: fixed;
-    height: 15vh;
+    height: 8vh;
     width: 100vw;
     background-color: rgb(0, 0, 0);
     left: 0px;
     top: 0px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 #lead-container #start{
-    background-color: brown;
-    width: 15vw;
-    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    width: 17.38vw;
+    height: 9vh;
 }
+
+#lead-container #start img{
+    height: 25px;
+    width: 100px;
+    padding-top: 20px;
+}
+
 #lead-container #central{
-    background-color: rgb(46, 41, 41);
+    background-color: rgb(0, 0, 0);
     width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#lead-container #central input{
+    font-size: 20px;
+    width: 40vw;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(27, 27, 27);
+    border:1px solid grey;
+    color: white;
+}
+#lead-container #central img{
+    padding-top: 12px;
+    padding-left: 10px;
+    height: 35px;
+    width: 35px;
 }
 #lead-container #end{
-    background-color: aquamarine;
-    width: 15vw;
+    background-color: rgb(0, 0, 0);
+    width: 15vw; 
+}
+#lead-container #end div{
+    padding-top: 15px;
+    float: right;
+    padding-right: 15px;
+}
+#lead-container #end img{
+    height: 30px;
+    width: 30px;
+    padding-left: 15px;
+}
+#lead-container #end .profile-img{
+    border-radius: 50%;
 }
 
 
