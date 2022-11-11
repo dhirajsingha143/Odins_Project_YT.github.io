@@ -137,5 +137,33 @@ body{
 #lead-container #end .profile-img{
     border-radius: 50%;
 }
+#lead-nav{
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    top: 8vh;
+    left: 17vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
 
-
+}
+#lead-nav button{
+    height: 4vh;
+    margin-left: 20px;
+    border-radius: 7px;
+    background-color: rgb(85, 85, 85);
+}
+#lead-nav button:hover{
+    background-color: rgb(127, 127, 128);
+}
+#lead-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+hr{
+    width: 13vw;
+}
