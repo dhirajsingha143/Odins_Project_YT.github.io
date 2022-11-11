@@ -1,24 +1,46 @@
+body{
+    background-color: black;
+}
+
 #navigation{
     position: fixed;
-    width: 16vw;
+    width: 17vw;
     height: 100vh;
     background-color: rgb(0, 0, 0);
     left: 0px;
     top: 9vh;
-    overflow:auto;
-    color: white;
+    overflow:visible;
 }
 #navigation #nav-YT{
-    height:20vh;  
+    height:20vh;
+    padding-left: 5px;
 }
 #navigation button{
-    width: 13vw;
+    display: flex;
+    width: 14vw;
+    height: 5vh;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-#navigation #nav-YT img{
-    
+#navigation button div{
+    padding-top: 4px;
+}
+#navigation button:hover{
+    background-color: rgb(29, 29, 29);
+}
+#navigation img{
+    height: 25px;
+    width: 25px;
+    padding-right: 30px;
 }
 #navigation #nav-user{
-    height: 30vh;
+    height: 25vh;
+    padding-left: 5px;
 }
 #navigation #nav-subscription{
     height: 15vh;
@@ -45,7 +67,7 @@
 }
 #lead-container #start{
     background-color: rgb(0, 0, 0);
-    width: 15vw;
+    width: 17.38vw;
     height: 9vh;
 }
 
@@ -84,13 +106,13 @@
     width: 15vw; 
 }
 #lead-container #end div{
-    padding-top: 8px;
+    padding-top: 15px;
     float: right;
     padding-right: 15px;
 }
 #lead-container #end img{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     padding-left: 15px;
 }
 #lead-container #end .profile-img{
