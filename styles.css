@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 #navigation{
@@ -27,6 +27,7 @@ body{
     font-size: 15px;
     background-color: rgb(0, 0, 0);
     color: white;
+    overflow: hidden;
 }
 #navigation button div{
     padding-top: 4px;
@@ -135,7 +136,7 @@ body{
     padding-left: 15px;
 }
 #lead-container #end .profile-img{
-    border-radius: 50%;
+    border-radius: 15%;
 }
 #lead-nav{
     position: fixed;
@@ -155,6 +156,7 @@ body{
     margin-left: 20px;
     border-radius: 7px;
     background-color: rgb(85, 85, 85);
+    color: white;
 }
 #lead-nav button:hover{
     background-color: rgb(127, 127, 128);
@@ -166,4 +168,29 @@ body{
 }
 hr{
     width: 13vw;
+}
+#vcontainer{
+    position: absolute;
+    height: 38vh;
+    width: 83vw;
+    left: 17vw;
+    top: 15vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#vcontainer #YT-video{
+    height: 28vh;
+    width: 20vw;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+}
+#vcontainer #YT-video div{
+    padding-top: 5px;
+    color: white;
+}
+#vcontainer #YT-video iframe{
+    border-radius: 20px;
 }
