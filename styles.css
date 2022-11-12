@@ -106,8 +106,8 @@ body{
 }
 #lead-container #central input{
     font-size: 20px;
-    width: 40vw;
-    height: 40px;
+    width: 35vw;
+    height: 30px;
     margin-top: 10px;
     border-radius: 20px;
     background-color: rgb(27, 27, 27);
@@ -115,10 +115,10 @@ body{
     color: white;
 }
 #lead-container #central img{
-    padding-top: 12px;
+    padding-top: 10px;
     padding-left: 10px;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
 #lead-container #end{
     background-color: rgb(0, 0, 0);
