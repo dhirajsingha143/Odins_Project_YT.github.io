@@ -201,3 +201,86 @@ hr{
     font-size: 13px;
     color: rgb(114, 111, 111);
 }
+
+@media(max-width:820px){
+    #navigation{
+        width: 11.5vw;
+    }
+    #navigation button{
+        width: 8vw;
+        padding-left: 15px;
+    }
+    #navigation p{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    #navigation a{
+        color: rgb(172, 169, 169);
+        text-decoration: none;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    #lead-container{
+        position: fixed;
+        height: 8vh;
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        left: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    #lead-container #start{
+        width: 17vw;
+    }
+    #lead-container #start img{
+        height: 28px;
+        width: 75px;
+    }
+    #lead-container #central{
+        width: 63vw;
+    }
+    #lead-container #end{
+        width: 20vw; 
+    }
+    #lead-nav{
+        left: 9.4vw;
+    }
+    #lead-nav button{
+        height: 3.5vh;
+        width: auto;
+        margin-left: 5px;
+        overflow:hidden;
+    }
+    #lead-nav a{
+        font-size: 10px;
+    }
+    hr{
+        width: 7vw;
+    }
+    #vcontainer{
+        height: 85vh;
+        width: 88.5vw;
+        left: 12vw;
+        top: 13vh;
+        grid-template-columns: auto auto;
+        padding-left: 20px;
+    }
+    #vcontainer #YT-video{
+        padding-top: 5px;
+        height: 30vh;
+        width: 40vw;
+        background-color: rgb(0, 0, 0);
+    }
+    #vcontainer #YT-video iframe{
+        border-radius: 20px;
+        height: 20.5vh;
+        width: 35vw;
+    }
+}
+@media(max-width:1180px){
+    body{
+        background-color: antiquewhite;
+    }
+}
