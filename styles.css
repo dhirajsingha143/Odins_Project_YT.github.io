@@ -279,8 +279,3 @@ hr{
         width: 35vw;
     }
 }
-@media(max-width:1180px){
-    body{
-        background-color: antiquewhite;
-    }
-}
