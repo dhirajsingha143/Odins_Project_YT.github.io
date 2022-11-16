@@ -5,8 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
+    <link rel="stylesheet" href="substyles.css">
 </head>
 <body>
-    
+    <div id="lead-container">
+        <div id="start">
+            <img src="yt-logo.png" alt="YouTube">
+        </div>
+        <div id="central">
+            <input type="search" name="search" placeholder="Search" autocomplete="off">
+            <div class="search">
+                <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2014%2014%22%20height%3D%2236%22%20width%3D%2236%22%3E%3Cpath%20stroke%3D%22%23fffefe%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M5.92%2011.34C8.91338%2011.34%2011.34%208.91338%2011.34%205.92C11.34%202.92662%208.91338%200.5%205.92%200.5C2.92662%200.5%200.5%202.92662%200.5%205.92C0.5%208.91338%202.92662%2011.34%205.92%2011.34Z%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23fffefe%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M13.5%2013.5L9.75%209.75%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="search">
+                <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2014%2014%22%20height%3D%2236%22%20width%3D%2236%22%3E%3Cpath%20stroke%3D%22%23fbfbfb%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M9.5%206.5C9.5%207.16304%209.23661%207.79893%208.76777%208.26777C8.29893%208.73661%207.66304%209%207%209C6.33696%209%205.70107%208.73661%205.23223%208.26777C4.76339%207.79893%204.5%207.16304%204.5%206.5V3C4.5%202.33696%204.76339%201.70107%205.23223%201.23223C5.70107%200.763392%206.33696%200.5%207%200.5C7.66304%200.5%208.29893%200.763392%208.76777%201.23223C9.23661%201.70107%209.5%202.33696%209.5%203V6.5Z%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23fbfbfb%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M12%207C12.0013%207.59132%2011.8858%208.17707%2011.6602%208.72363C11.4345%209.27019%2011.1031%209.76679%2010.6849%2010.1849C10.2668%2010.603%209.77021%2010.9345%209.22364%2011.1601C8.67708%2011.3858%208.09133%2011.5013%207.50001%2011.5H6.50001C5.90869%2011.5013%205.32294%2011.3858%204.77638%2011.1601C4.22982%2010.9345%203.73322%2010.603%203.31509%2010.1849C2.89696%209.76679%202.56555%209.27019%202.33987%208.72363C2.11419%208.17707%201.99869%207.59132%202.00001%207%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23fbfbfb%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M7%2011.5V13.5%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="voice">
+            </div>
+        </div>
+        <div id="end">
+            <div>
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2014%2014%22%20height%3D%2236%22%20width%3D%2236%22%3E%3Cpath%20stroke%3D%22%23fdfdfd%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M12.82%203.75L10%205V3.5C10%203.23478%209.89464%202.98043%209.70711%202.79289C9.51957%202.60536%209.26522%202.5%209%202.5H1.5C1.23478%202.5%200.98043%202.60536%200.792893%202.79289C0.605357%202.98043%200.5%203.23478%200.5%203.5V10.5C0.5%2010.7652%200.605357%2011.0196%200.792893%2011.2071C0.98043%2011.3946%201.23478%2011.5%201.5%2011.5H9C9.26522%2011.5%209.51957%2011.3946%209.70711%2011.2071C9.89464%2011.0196%2010%2010.7652%2010%2010.5V9L12.82%2010.25C12.896%2010.2793%2012.9781%2010.2897%2013.059%2010.28C13.1399%2010.2704%2013.2173%2010.2412%2013.2843%2010.1948C13.3513%2010.1485%2013.406%2010.0865%2013.4436%2010.0142C13.4812%209.94189%2013.5006%209.86149%2013.5%209.78V4.22C13.5006%204.13851%2013.4812%204.05811%2013.4436%203.98581C13.406%203.91351%2013.3513%203.85149%2013.2843%203.80516C13.2173%203.75882%2013.1399%203.72958%2013.059%203.71996C12.9781%203.71035%2012.896%203.72066%2012.82%203.75V3.75Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="record">
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2014%2014%22%20height%3D%2236%22%20width%3D%2236%22%3E%3Cpath%20stroke%3D%22%23ffffff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M6%2013.501H8%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23ffffff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M11.4427%204.9417C11.4427%203.76343%2010.9746%202.63342%2010.1414%201.80025C9.30827%200.96709%208.17826%200.499023%206.99998%200.499023C5.82171%200.499023%204.6917%200.96709%203.85854%201.80025C3.02537%202.63342%202.5573%203.76343%202.5573%204.9417V9.35479C2.5573%209.79664%202.38178%2010.2204%202.06934%2010.5328C1.75691%2010.8453%201.44185%2011.0208%201%2011.0208H13C12.5581%2011.0208%2012.2431%2010.8453%2011.9306%2010.5328C11.6182%2010.2204%2011.4427%209.79664%2011.4427%209.35479V4.9417Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="notification">
+            <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2014%2014%22%20height%3D%2236%22%20width%3D%2236%22%3E%3Cpath%20stroke%3D%22%23ffffff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M7%208C8.38071%208%209.5%206.88071%209.5%205.5C9.5%204.11929%208.38071%203%207%203C5.61929%203%204.5%204.11929%204.5%205.5C4.5%206.88071%205.61929%208%207%208Z%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23ffffff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M2.72998%2011.9C3.17622%2011.1675%203.80339%2010.5621%204.55119%2010.1421C5.29899%209.72201%206.14227%209.50137%206.99998%209.50137C7.85769%209.50137%208.70097%209.72201%209.44877%2010.1421C10.1966%2010.5621%2010.8237%2011.1675%2011.27%2011.9%22%3E%3C%2Fpath%3E%3Cpath%20stroke%3D%22%23ffffff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M7%2013.5C10.5899%2013.5%2013.5%2010.5899%2013.5%207C13.5%203.41015%2010.5899%200.5%207%200.5C3.41015%200.5%200.5%203.41015%200.5%207C0.5%2010.5899%203.41015%2013.5%207%2013.5Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E" alt="profile" class="profile-img">
+            </div>
+        </div>
+        <div id="vcontainer">
+            <div id="YT-video">
+                <iframe id="video" src="https://www.youtube.com/embed/LMU8449Dujs?mute=0&control=0&autoplay=1" frameborder="0" allowfullscreen="1"></iframe>
+            </div>
+            <div id="suggestion">
+                <div id="YT-videos">
+                    <iframe height="150" src="https://www.youtube.com/embed/4OH7R13I2lM?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Winter Coffee Shop music-lofi</strong></div>
+                    <div class="channel">RelaxingJazz BGM<br>26 views</div>
+                </div>
+                <div id="YT-videos">
+                    <iframe height="150" src="https://www.youtube.com/embed/ro9VV8J29iA?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>November Chill Mix</strong></div>
+                    <div class="channel">Chill Vibes<br>26 views</div>
+                </div>
+                <div id="YT-videos">
+                    <iframe src="https://www.youtube.com/embed/n61ULEU7CO0?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Best of lofi hip hop 2 music-lofi</strong></div>
+                    <div class="channel">Lofi Girl<br>26 views</div>
+                </div>
+                <div id="YT-videos">
+                    <iframe src="https://www.youtube.com/embed/o3PKkJF_P0I?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Quite Nights Gentle music-lofi</strong></div>
+                    <div class="channel">Aesthetic Lofi<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/-RoyQsL0cVE?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>The first snow music-lofi</strong></div>
+                    <div class="channel">Aesthetic Lofi<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/1dn4h-k-2xc?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Campfire Crackling music-lofi</strong></div>
+                    <div class="channel">Aesthetic Lofi<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/KeXGhMqCi9Q?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Calm Place music-lofi</strong></div>
+                    <div class="channel">Aesthetic Lofi<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/HPQJk6kLE-I?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Xander-cabin fever music-lofi</strong></div>
+                    <div class="channel">Lofi Girl<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/gZGLnxVrzD0?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Astro-Hidden Treasure☄️ music-lofi</strong></div>
+                    <div class="channel">Lofi Girl<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/-R0UYHS8A_A?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Afternoon Jazz🎷 music-lofi</strong></div>
+                    <div class="channel">Lofi Girl<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/_tV5LEBDs7w?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Cozy Winter❄️ music-lofi</strong></div>
+                    <div class="channel">Lofi Girl<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/rbaH6ykpXF4?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Nights ♫ Acoustic music-lofi</strong></div>
+                    <div class="channel">Slowed and Chill<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/dQVOkW8flXo?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>Enjoy your day</strong></div>
+                    <div class="channel">Chill Vibes<br>26 views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/qkomUXfVfyE?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>October Chill Mix</strong></div>
+                    <div class="channel">Chill Vibes<br>702K views</div>
+                </div>
+                <div id="YT-video">
+                    <iframe src="https://www.youtube.com/embed/PlvHLXvhSGE?mute=1&control=0" frameborder="0" allowfullscreen="1"></iframe>
+                    <div><strong>New Journey 🌸 Songs</strong></div>
+                    <div class="channel">Chill Vibes<br>26 views</div>
+                </div>
+            </div>
+        </div>
+        
 </body>
 </html>
