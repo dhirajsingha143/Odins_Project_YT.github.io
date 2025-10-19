@@ -4,6 +4,8 @@ A replica of YouTube web page. For learning purpose.
 #Learn to Embed the YouTube video Player into the page so it actually plays and showing little thumnail image along the right side of web page.
 This project do not include dynamic elements of JavaScript.
 
+Pre-view[https://dhirajsingha143.github.io/Odins_Project_YT.github.io/]
+
 ##Task Includes.
 1. Set up a Git-Hub repo with different project title.
 2. Create a blank HTML document.
